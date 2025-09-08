@@ -43,14 +43,38 @@ import supercharging_with_ragIcon from "./images/thumb/supercharging_your_app_wi
 import sopravvivere_alle_pull_request from "./images/sopravvivere-alle-pull-request15052025.png";
 import workshop_tdd_icon from "./images/workshop_tdd.png";
 import summer_beer_2025_icon from "./images/summer_beer_2025.png";
+import modelli_ai_locali_2025_icon from "./images/francesco_corti_modelli_ai_locali_10_09_2025.png";
 
 export const events: FDevEvent[] = [
-    {
-        title: "Summer Beer Meetup 2025",
-        subtitle: "Una serata per ritrovarci come community, salutarci prima delle ferie e parlare delle prossime attività insieme!",
-        icon: summer_beer_2025_icon,
-        image: summer_beer_2025_icon,
-        abstract: `
+  {
+    title: "Modelli AI locali: quando usarli e quando non usarli (ancora)",
+    subtitle:
+      "Local LLMs vs cloud: pro e contro tra costi, dati e tooling MCP. Con esempi e demo, scopri quando scegliere locale, cloud o entrambi.",
+    icon: modelli_ai_locali_2025_icon,
+    image: modelli_ai_locali_2025_icon,
+    abstract: `
+  👉I modelli linguistici locali (Local LLMs) stanno guadagnando sempre più attenzione tra gli sviluppatori che realizzano applicazioni GenAI e assistenti di coding — ma portano con sé compromessi importanti.
+
+In questo intervento, Francesco Corti (Principal PM per l’AI in Docker) condividerà esperienze concrete maturate nell’uso di LLM sia locali sia cloud-based, come ChatGPT e Claude. Scoprirai i punti di forza dei modelli locali — dal controllo dei dati alla gestione dei costi — e i loro limiti, con un focus approfondito sul tooling MCP, oggi al centro di grande interesse.
+
+Attraverso esempi pratici e demo dal vivo, la sessione ti aiuterà a capire quando conviene puntare sul locale, quando sul cloud e come combinare entrambi per sviluppare in modo efficace applicazioni GenAI.
+  `,
+    current: false,
+    date: dayjs("2025-10-09 18:30").toDate(),
+    sponsor: "",
+    place: "Impact Hub Firenze",
+    address: "16 Via Panciatichi 50141 Firenze Italy",
+    eventbriteId: "1671686111159",
+    eventbriteLink:
+      "https://www.eventbrite.it/e/biglietti-modelli-ai-locali-quando-usarli-e-quando-non-usarli-ancora-1671686111159",
+    type: "meetup",
+  },
+  {
+    title: "Summer Beer Meetup 2025",
+    subtitle: "Una serata per ritrovarci come community, salutarci prima delle ferie e parlare delle prossime attività insieme!",
+    icon: summer_beer_2025_icon,
+    image: summer_beer_2025_icon,
+    abstract: `
 Una serata informale tra amici della community, con birrette e qualche gioco leggero per fare il punto insieme, raccogliere feedback in modo divertente e prepararci ai prossimi eventi, il tutto senza stress (niente review spietate!), prima delle ferie estive.
 
 Ti aspettiamo mercoledì 18 giugno dalle 21:30 al Parc Bistrò, Piazzale delle Cascine, 50144 Firenze FI.
